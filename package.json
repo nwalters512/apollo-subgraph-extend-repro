@@ -1,0 +1,9 @@
+{
+  "name": "apollo-subgraph-extend-repro",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "repository": "git@github.com:nwalters512/apollo-subgraph-extend-repro.git",
+  "author": "Nathan Walters <nwalters@nerdwallet.com>",
+  "license": "MIT"
+}
