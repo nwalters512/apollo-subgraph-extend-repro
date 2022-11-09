@@ -23,25 +23,7 @@
     "@apollo/cache-control-types" "^1.0.2"
     "@apollo/federation-internals" "^2.1.4"
 
-"@graphql-tools/merge@8.3.11":
-  version "8.3.11"
-  resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/@graphql-tools/merge/-/merge-8.3.11.tgz#f5eab764e8d7032c1b7e32d5dc6dea5b2f5bb21e"
-  integrity sha512-IpZh8r8e8FycXaUv04xe5HQH9siD1tkS8MvaO8Wb2FaPXv15XSYP+Wsb2MUStpIqGfQxa6xY/+eEuxv+VqwXyg==
-  dependencies:
-    "@graphql-tools/utils" "9.1.0"
-    tslib "^2.4.0"
-
-"@graphql-tools/schema@^9.0.9":
-  version "9.0.9"
-  resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/@graphql-tools/schema/-/schema-9.0.9.tgz#aa24869a2231039dcd9b6b882a5c5cb186d1116e"
-  integrity sha512-hwg8trUytO5ayQ8bzL3+sAyXcu2rhKt5pLXpLO0/TMTN2nXd3DBO4mqx+Ra4Er2mE/msInGQ5EmZbxVBPv+hSg==
-  dependencies:
-    "@graphql-tools/merge" "8.3.11"
-    "@graphql-tools/utils" "9.1.0"
-    tslib "^2.4.0"
-    value-or-promise "1.0.11"
-
-"@graphql-tools/utils@9.1.0", "@graphql-tools/utils@^9.1.0":
+"@graphql-tools/utils@^9.1.0":
   version "9.1.0"
   resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/@graphql-tools/utils/-/utils-9.1.0.tgz#c33893e0aa9cbd3760d94f1771477e722adb4e54"
   integrity sha512-4Ketxo98IwKA/56LP6cI6PgQBwUCujszQcTNkzjq7liJPa2mLjKnmVOJ0bauMwKcEazeYuZagceljb0POmEGvQ==
@@ -108,8 +90,3 @@ tslib@^2.1.0, tslib@^2.4.0:
   version "2.4.1"
   resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
   integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
-
-value-or-promise@1.0.11:
-  version "1.0.11"
-  resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/value-or-promise/-/value-or-promise-1.0.11.tgz#3e90299af31dd014fe843fe309cefa7c1d94b140"
-  integrity sha512-41BrgH+dIbCFXClcSapVs5M6GkENd3gQOJpEfPDNa71LsUGMXDL0jMWpI/Rh7WhX+Aalfz2TTS3Zt5pUsbnhLg==
