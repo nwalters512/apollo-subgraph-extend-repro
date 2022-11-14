@@ -23,6 +23,31 @@
     "@apollo/cache-control-types" "^1.0.2"
     "@apollo/federation-internals" "^2.1.4"
 
+"@graphql-tools/merge@8.3.12":
+  version "8.3.12"
+  resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/@graphql-tools/merge/-/merge-8.3.12.tgz#e3f2e5d8a7b34fb689cda66799d845cbc919e464"
+  integrity sha512-BFL8r4+FrqecPnIW0H8UJCBRQ4Y8Ep60aujw9c/sQuFmQTiqgWgpphswMGfaosP2zUinDE3ojU5wwcS2IJnumA==
+  dependencies:
+    "@graphql-tools/utils" "9.1.1"
+    tslib "^2.4.0"
+
+"@graphql-tools/schema@^9.0.10":
+  version "9.0.10"
+  resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/@graphql-tools/schema/-/schema-9.0.10.tgz#77ba3dfab241f0232dc0d3ba03201663b63714e2"
+  integrity sha512-lV0o4df9SpPiaeeDAzgdCJ2o2N9Wvsp0SMHlF2qDbh9aFCFQRsXuksgiDm2yTgT3TG5OtUes/t0D6uPjPZFUbQ==
+  dependencies:
+    "@graphql-tools/merge" "8.3.12"
+    "@graphql-tools/utils" "9.1.1"
+    tslib "^2.4.0"
+    value-or-promise "1.0.11"
+
+"@graphql-tools/utils@9.1.1":
+  version "9.1.1"
+  resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/@graphql-tools/utils/-/utils-9.1.1.tgz#b47ea8f0d18c038c5c1c429e72caa5c25039fbab"
+  integrity sha512-DXKLIEDbihK24fktR2hwp/BNIVwULIHaSTNTNhXS+19vgT50eX9wndx1bPxGwHnVBOONcwjXy0roQac49vdt/w==
+  dependencies:
+    tslib "^2.4.0"
+
 "@graphql-tools/utils@^9.1.0":
   version "9.1.0"
   resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/@graphql-tools/utils/-/utils-9.1.0.tgz#c33893e0aa9cbd3760d94f1771477e722adb4e54"
@@ -90,3 +115,8 @@ tslib@^2.1.0, tslib@^2.4.0:
   version "2.4.1"
   resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
   integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
+
+value-or-promise@1.0.11:
+  version "1.0.11"
+  resolved "https://artifactory.nerdwallet.io/artifactory/api/npm/npm/value-or-promise/-/value-or-promise-1.0.11.tgz#3e90299af31dd014fe843fe309cefa7c1d94b140"
+  integrity sha512-41BrgH+dIbCFXClcSapVs5M6GkENd3gQOJpEfPDNa71LsUGMXDL0jMWpI/Rh7WhX+Aalfz2TTS3Zt5pUsbnhLg==

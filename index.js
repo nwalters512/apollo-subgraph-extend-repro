@@ -2,8 +2,7 @@ const {
   buildSubgraphSchema,
   printSubgraphSchema,
 } = require("@apollo/subgraph");
-const { printSchemaWithDirectives } = require("@graphql-tools/utils");
-const { printSchema } = require('graphql');
+const { addResolversToSchema } = require("@graphql-tools/schema");
 const gql = require("graphql-tag");
 
 const schema = gql`
@@ -14,21 +13,19 @@ const schema = gql`
 
 const subgraphSchema = buildSubgraphSchema({ typeDefs: [schema] });
 
-console.log("printSubgraphSchema");
+console.log("printSubgraphSchema (before)");
 console.log("==========================");
 console.log(printSubgraphSchema(subgraphSchema));
 console.log("==========================");
 
 console.log("");
 
-console.log("printSchemaWithDirectives");
-console.log("==========================");
-console.log(printSchemaWithDirectives(subgraphSchema));
-console.log("==========================");
+const schemaWithResolvers = addResolversToSchema({
+  schema: subgraphSchema,
+  resolvers: {},
+});
 
-console.log("");
-
-console.log("printSchema");
+console.log("printSubgraphSchema (after)");
 console.log("==========================");
-console.log(printSchema(subgraphSchema));
+console.log(printSubgraphSchema(schemaWithResolvers));
 console.log("==========================");
